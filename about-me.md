@@ -17,7 +17,6 @@
 <p>✏️ Also, I have a strong sense of responsibility</p>
 <p>✅ listen well to advice, and tend to be a cautious.</p>
 </div>
-<br />
 
 <h3 style="text-align:center;"><b>🛠 Tech Stack 🛠</b></h3>
  
