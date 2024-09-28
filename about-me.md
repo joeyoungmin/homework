@@ -1,7 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Joe%20Young Min&fontSize=90)
 
 <div align="center">
-  <br />
+<img src="./assets/md/image.png" alt="조영민">
+<br />
 <h3>❤️ About ❤️</h3>
 <h4> G'day, I'm joey!👋I'm a <span>front-end developer</span></h4>
 <div align="center">
@@ -11,10 +12,11 @@
 <p>협업 기간까지 많이 발전해서 더 나은 결과물을 만들어내어 다같이 취업했으면 <p>좋겠습니다!</p>
 <p>감사합니다.</p>
 </div>
+<p>🥛 challenging person</p>
 <p>🌏 Globetrotter</p>
-<p>🥛 Optimist</p>
 <p>☕ Coffeeholic</p>
-<p>📚 Bookworm</p>
+<p>📚 soccerfanatic</p>
+</div>
 <br />
 
 <h3 align="center"><b>🛠 Tech Stack 🛠</b></h3>
@@ -31,9 +33,7 @@
  <img src="https://img.shields.io/badge/MobX-FF9955?style=flat&logo=MobX&logoColor=white" />
 <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat&logo=styled-components&logoColor=white" />
   <img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=Sass&logoColor=white" />
-    <br>
 </div>
-<br>
 <div align=center>
     <h4> Tools </h4>
 </div>
@@ -44,7 +44,6 @@
     <img src="https://img.shields.io/badge/Adobe XD-FF61F6?style=flat&logo=AdobeXD&logoColor=white" />
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white" />
 </div>
-<br>
 <div align=center>
     <h3>🎨 SNS & Portfolio 🎨</h3>
 </div>
