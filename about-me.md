@@ -58,7 +58,6 @@ border-width: 0;
     <img src="https://img.shields.io/badge/Adobe XD-FF61F6?style=flat&logo=AdobeXD&logoColor=white" />
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white" />
 </div>
-
 <div style="text-align:center;">
     <h3>🎨 SNS & Portfolio 🎨</h3>
 </div>
@@ -74,7 +73,7 @@ border-width: 0;
         <img src="https://img.shields.io/badge/Mail-30B980?style=flat&logo=Gmail&logoColor=white" />
     </a>
 </div>
-
+<br />
 <div style="text-align:center;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joeyoungmin&layout=compact">
     <img src="https://github-readme-stats.vercel.app/api?username=joeyoungmin&show_icons=true">
