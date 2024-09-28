@@ -12,7 +12,7 @@ border-width: 0;
 "
 >About me</h1>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=joe%20YoungMin&fontSize=90) 
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=400&section=header&text=Joe%20YoungMin&fontSize=90) 
 
 <div style="text-align:center;">
 <img src="./assets/md/image.png" alt="조영민">
