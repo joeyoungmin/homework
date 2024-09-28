@@ -1,4 +1,19 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Joe%20Young Min&fontSize=90)
+<h1
+style="
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border-width: 0;
+"
+>About me</h1>
+
+![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=300&section=header&text=connie%20Park&fontSize=90) 
+<!-- 이걸 h2로하고싶은데... 마크업만 사용해서 하는 방법을 모르겠네용... -->
 
 <div style="text-align:center;">
 <img src="./assets/md/image.png" alt="조영민">
