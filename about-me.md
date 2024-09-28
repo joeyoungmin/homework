@@ -29,11 +29,9 @@ border-width: 0;
 <p>이번 멋쟁이 사자처럼 12기에 합류 하게 되어서 영광이고 기쁜 마음으로 공부중입니다.</p>
 <p>함께 앞에선 끌어주고 뒤에서는 밀면서 함께 성장해갔으면 좋겠습니다.</p>
 <p>협업 기간까지 많이 발전해서 더 나은 결과물을 만들어내어 다같이 취업했으면 좋겠습니다!</p>
-<p>감사합니다.</p>
+<p>감사합니다.</p></div>
 
-</div>
-
-<h3 style="text-align:center;"><b>🛠 Tech Stack 🛠</b></h3>
+<div style="text-align:center;"><h3><b>🛠 Tech Stack 🛠</b></h3></div>
  
  <div style="text-align:center;">
   <h3 style="text-align:center;"><b>Platforms & Languages</b></h3>
