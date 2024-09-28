@@ -5,13 +5,13 @@
 <br />
 <h3>❤️ About ❤️</h3>
 <h4> G'day, I'm joey!👋I'm a <span>front-end developer</span></h4>
+</div>
 <div style="text-align:center;">
 <p>안녕하세요. FE개발자(지망생) 조영민입니다.</p>
 <p>이번 멋쟁이 사자처럼 12기에 합류 하게 되어서 영광이고 기쁜 마음으로 공부중입니다.</p>
 <p>함께 앞에선 끌어주고 뒤에서 는 밀면서 함께 성장해갔으면 좋겠습니다.</p>
-<p>협업 기간까지 많이 발전해서 더 나은 결과물을 만들어내어 다같이 취업했으면 <p>좋겠습니다!</p>단단한a cautious person
+<p>협업 기간까지 많이 발전해서 더 나은 결과물을 만들어내어 다같이 취업했으면 <p>좋겠습니다!</p>
 <p>감사합니다.</p>
-</div>
 <p>🚧 I’m a solid person</p>
 <p>✨ and always value harmony</p>
 <p>✏️ Also, I have a strong sense of responsibility</p>
@@ -60,11 +60,7 @@
     
 </div>
 <div style="text-align:center;">
-    <br><br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joeyoungmin&layout=compact"> <br><br>
 <img src="https://github-readme-stats.vercel.app/api?username=joeyoungmin&show_icons=true">
-
-
-
 
 </div>
