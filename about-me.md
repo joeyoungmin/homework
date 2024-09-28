@@ -1,14 +1,13 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=600&section=header&text=joey%20Cho&fontSize=120)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=400&section=header&text=joey%20Cho&fontSize=120&width=2200)
 
 <div align="center">
   <br />
 <h3>❤️ About ❤️</h3>
-<h4> G'day, I'm joey!👋</h4>
-<p>I'm a <span>front-end developer</span></p>
-🌏 Globetrotter<br /><br />
-🥛 Optimist<br /><br />
-☕ Coffeeholic<br /><br />
-📚 Bookworm<br /><br />
+<h4> G'day, I'm joey!👋I'm a <span>front-end developer</span></h4>
+<p>🌏 Globetrotter</p>
+<p>🥛 Optimist</p>
+<p>☕ Coffeeholic</p>
+<p>📚 Bookworm</p>
 <br />
 
 <h3 align="center"><b>🛠 Tech Stack 🛠</b></h3>
