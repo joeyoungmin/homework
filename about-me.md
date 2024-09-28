@@ -1,15 +1,15 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=joey%20Cho&fontSize=90)
 
-<div align=center>
+<div text-align="center">
   <br />
 <h3>❤️ About ❤️</h3>
 <h4> G'day, I'm joey!👋</h4>
-<p> I'm a <span>front-end developer</span><p>
-<p>🌏 Globetrotter</p>
-<p>🥛 Optimist</p>
-<p>☕ Coffeeholic</p>
-<p>📚 Bookworm </p>
-</br>
+I'm a <span>front-end developer</span>
+🌏 Globetrotter
+🥛 Optimist
+☕ Coffeeholic
+📚 Bookworm
+<br />
 
 <h3 align="center"><b>🛠 Tech Stack 🛠</b></h3>
  
