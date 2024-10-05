@@ -1,0 +1,67 @@
+.container { 
+    display: flex;
+    flex-direction: column; /*세로배치*/
+}
+
+.con {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.con:first-child {
+    order: 2; /*위치조정*/
+}
+
+.con:last-child {
+    order: 1;/*이놈도 위치조정*/
+}
+/*flex를 지원하는 환경에서는 다음과 같이 배치되도록 레이아웃을 구현해 본다. 여기까지 flex로 아래위 위치 체인지*/
+
+
+.status {
+    width: 64px; /*1번조건 아바타 이미지의 크기 64*64*/
+    height: 64px; 
+    margin-right: 20px; /*아바타 이미지 간의 간격 - 20px*/
+    text-align: center;
+    position: relative;
+    /* float:left; */ /*float을 사용하여 다음의 레이아웃을 구현해 본다. => 대신 flex사용을 위해 주석처리함*/
+}
+
+
+.con:last-child .status:last-child {
+    margin-right: 0; /*아바타 이미지 간의 간격 - 20px , 마지막 간격은 아바타 사이의 공간이 아니므로 0*/
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-color: #DBDBDB;
+}
+
+.status-indicator {
+    position: absolute; /*아바타의 상태 정보를 알 수 있도록 정보를 제공한다.*/
+    bottom: 0; 
+    right: 0; 
+    width: 15px;
+    height: 15px; 
+    border-radius: 50%; 
+}
+
+.online-indicator {
+    background-color: #4CFE88; /*초록 원 배경색 - #DBDBDB*/
+}
+
+.offline-indicator {
+    background-color: #DBDBDB; /*회색 원 배경색 - #DBDBDB*/
+}
+
+.status-text {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    visibility: hidden; 
+    position: absolute;
+}
