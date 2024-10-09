@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>과제모음</title>
+    <title>Focus-Visible 예시</title>
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: outline 0.2s;
+        }
+
+        /* 기본 스타일 */
+        button:focus {
+            outline: none; /* 기본 포커스 아웃라인 제거 */
+        }
+
+        /* focus-visible 스타일 */
+        button:focus-visible {
+            outline: 2px solid blue; /* 키보드 탐색 시 파란색 아웃라인 */
+        }
+    </style>
 </head>
 <body>
-    <ul>
-        <li><p><a href="https://joeyoungmin.github.io/homework/md/about-me.html">1주차과제</a></p></li>
-        <li><p><a href="https://joeyoungmin.github.io/homework/avatars/avatars.html">2주차과제</a></p></li>
-    </ul>
+
+    <button>버튼 1</button>
+    <button>버튼 2</button>
+    <button>버튼 3</button>
+
 </body>
 </html>

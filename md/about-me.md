@@ -15,7 +15,7 @@ border-width: 0;
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=400&section=header&text=Joe%20YoungMin&fontSize=90) 
 
 <div style="text-align:center;">
-<img src="./../assets/md/image.png" alt="조영민">
+<img src="./../md/images/image.png" alt="조영민">
 <br />
 <h3>❤️ About ❤️</h3>
 <h4> G'day, I'm joey!👋I'm a <span>front-end developer</span></h4>
