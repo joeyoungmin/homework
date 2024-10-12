@@ -1,0 +1,208 @@
+/* CSS를 활용하여 레이아웃 및 스타일링을 완성해주세요 */
+:root{
+    --main-size:16px;
+    --main-color:#121212;
+    --main-bg:#03CF5D;
+    --border-color:#DADADA;
+    --focus-bg:#e9f0fd;
+    --focus-border:#03cf5d;
+}
+
+*{margin:0; padding:0;}
+
+body{
+    color:var(--main-color);
+    font-size:var(--main-size);
+}
+a{
+    display:block;
+    text-decoration: none;
+    color:var(--main-color);
+}
+
+
+@media screen and (max-width: 768px){
+    .ip-security-wrap{
+        display:none;
+    }
+}
+
+
+/* header */
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.5rem 0 2.7rem 0;
+}
+
+.header a{
+    outline-color:#24388d;
+}
+
+.header a img{
+    width:230px;
+}
+
+/* main */
+.container{
+    margin: 0 20px 0 20px;
+}
+
+.id input, .password input{
+    height: 48px;
+    block-size: 48px;
+    width: 100%;
+    inline-size: 100%;
+    border:none;
+    border:1px solid var(--border-color);
+    box-sizing: border-box;
+    outline-color:#24388d;
+    margin-top:10px;
+}
+
+.id input:focus, 
+.password input:focus{
+    outline: none; /* 기본 포커스 아웃라인 제거 */
+    border-color: #03cf5d; /* 테두리 색상 변경 */
+    background-color: #e9f0fd; /* 텍스트 색상 변경 (필요한 경우) */
+}
+
+.error-message{
+    color:red;
+    font-size: 0.9em;
+    display: none;
+}
+
+.id.input:focus-within ~ .password.input .error-message,
+.password.input:focus-within ~ .id.input .error-message,
+.id.input:focus-within .error-message,
+.password.input:focus-within .error-message {
+    display: block;
+    margin-bottom:0.7px;
+}
+.login-state:focus-within ~ .error-message,
+.ip-security-wrap:focus-within ~ .error-message {
+    display: none!important;
+}
+
+.id label, .password label{
+    display:none;
+}
+
+
+button{
+    height: 45px;
+    block-size: 45px;
+    width: 100%;
+    inline-size: 100%;
+    background-color:var(--main-bg);
+    color:#fff;
+    border:1px solid #dadada;
+    outline-color:#24388d;
+    font-size:var(--main-size);
+    margin-top:20px;
+}
+
+.id input::placeholder, .password input::placeholder{
+    font-size:14px;
+    padding:1rem;
+    color: var(--border-color);
+}
+
+fieldset{
+    border:0; vertical-align:top;
+}
+
+legend{
+    position:absolute;
+    top:0; left:0;
+    width:0;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+    font-size:0;
+    line-height:0;
+}
+.login-state {
+    position: relative;
+    overflow: hidden;
+    float: right;
+    margin-top:10px;
+}
+
+.login-state input {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -9999px;
+    cursor: pointer;
+}
+
+.login-state label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    background: url("./../../assets/login/checkbox(unchecked).svg") center/cover no-repeat;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.login-state input:focus + label .custom-checkbox {
+    border: 1px solid #24388d;
+}
+
+.login-state input:checked + label .custom-checkbox {
+    width:24px;
+    height:24px;
+    background: url("./../../assets/login/checkbox(checked).svg") center/cover no-repeat; /* 체크된 이미지 */
+}
+
+.login-state input:focus + label .custom-checkbox {
+    outline: 1px solid currentColor;
+}
+@media screen and (min-width: 768px) {
+
+    .container{
+        max-width: calc(500px - 40px);
+        height:222px;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .login-state{
+        float:left;
+    }
+    .ip-security-wrap{
+        display:block;
+        float:right;
+        position:relative;
+        margin-top:10px;
+        outline-color:#24388d;
+    }
+
+    #ip-security{
+        display:none;
+    }
+
+    .ip-security-wrap label span{
+        color:#121212;
+        font-weight: bold;
+        margin-left:5px;
+        font-size: var(--main-size);
+    }
+    .ip-security-wrap label a{
+        outline-color:#24388d;
+        font-size:var(--main-size);
+        color:var(--main-color);
+    }
+
+}
+
