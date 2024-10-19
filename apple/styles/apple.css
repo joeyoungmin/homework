@@ -1,0 +1,64 @@
+@import url(card-component.css);
+@import url(base.css);
+@import url(reset.css);
+@import url(./theme.css);
+
+/* 카드 레이아웃 */
+.screen-reader-only {
+    position: absolute; /* 화면에서 벗어나게 함 */
+    width: 1px; /* 최소 크기로 설정 */
+    height: 1px; /* 최소 크기로 설정 */
+    margin: -1px; /* 화면에서 완전히 벗어남 */
+    overflow: hidden; /* 내용 숨김 */
+    clip: rect(0, 0, 0, 0); /* 보이지 않도록 클립 */
+    white-space: nowrap; /* 한 줄로 만들기 */
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:var(--x-small-spacing);
+}
+
+section{
+    grid-column: 1;
+    block-size: var(--size);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top:var(--large-spacing);
+}
+
+h2{
+    font-size:var(--large-text);
+    margin-top:var(--large-spacing);
+    font-weight: bold;
+    margin-bottom:var(--small-spacing);
+}
+
+span{
+    color:var(--gray);
+}
+
+.section1>p:last-of-type{
+    margin-top:var(--small-spacing);
+    margin-bottom:var(--x-small-spacing);
+}
+
+section>p:last-of-type:not(.section1>p:last-of-type){
+    margin-bottom:var(--x-small-spacing);
+}
+
+.button-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: var(--base-spacing);
+    justify-content: center;
+}
+
+.btn{
+    padding: var(--x-small-spacing) var(--small-spacing);
+    gap:var(--base-spacing);
+    border-radius: var(--large-spacing);
+}
