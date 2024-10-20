@@ -321,4 +321,6 @@ section:nth-child(even) button:hover{
 ---
 - ***그리드를 사용하여 구현하고 구현 결과를 움직이는 이미지로 생성하여 삽입해주세요.***
 
-<img width="{80%}" src="./images/녹음 2024-10-20 053734.mp4"/>
+<video>
+  <source src="./images/video.mp4"></source>
+</video>
