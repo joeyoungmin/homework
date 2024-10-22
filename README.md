@@ -27,4 +27,6 @@
 
 4번과제 설명 https://github.com/joeyoungmin/homework/blob/main/md/apple.md
 
+=>4번과제 피드백 회고 https://velog.io/@joeyoungmin/4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C%ED%92%80%EC%9D%B4
+
 ---
